@@ -10,8 +10,18 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    
+    //código adicionado para teste do nome das fontes
+    /*
+    override init () {
+        for family in UIFont.familyNames {
+            print ("Family: \(family)")
+            for font in UIFont.fontNames(forFamilyName: family) {
+                print ("Font : \(font)")
+            }
+        }
+    }
+   */
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

@@ -16,6 +16,14 @@
 		1B1B57D72C8CB04600E9392B /* MarketAppExampleUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B57D62C8CB04600E9392B /* MarketAppExampleUIKitTests.swift */; };
 		1B1B57E12C8CB04600E9392B /* MarketAppExampleUIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B57E02C8CB04600E9392B /* MarketAppExampleUIKitUITests.swift */; };
 		1B1B57E32C8CB04600E9392B /* MarketAppExampleUIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B57E22C8CB04600E9392B /* MarketAppExampleUIKitUITestsLaunchTests.swift */; };
+		1B1B580D2C8CC6B100E9392B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B580C2C8CC6B100E9392B /* HomeViewController.swift */; };
+		1B1B58102C8CC6E100E9392B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B580F2C8CC6E100E9392B /* HomeView.swift */; };
+		1B1B58132C8CC78D00E9392B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B58122C8CC78D00E9392B /* HomeViewModel.swift */; };
+		1B1B58152C8CC79C00E9392B /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B58142C8CC79C00E9392B /* HomeModel.swift */; };
+		1B1B58182C8CFA2500E9392B /* TitleLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B58172C8CFA2500E9392B /* TitleLabelView.swift */; };
+		1B1B581B2C8D015F00E9392B /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B1B581A2C8D015F00E9392B /* Poppins-Black.ttf */; };
+		1B1B581D2C8D048500E9392B /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B581C2C8D048500E9392B /* Fonts.swift */; };
+		1B1B58212C8D107400E9392B /* TitleLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B58202C8D107400E9392B /* TitleLabelModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		1B1B57DC2C8CB04600E9392B /* MarketAppExampleUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarketAppExampleUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1B57E02C8CB04600E9392B /* MarketAppExampleUIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketAppExampleUIKitUITests.swift; sourceTree = "<group>"; };
 		1B1B57E22C8CB04600E9392B /* MarketAppExampleUIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketAppExampleUIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B1B580C2C8CC6B100E9392B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1B1B580F2C8CC6E100E9392B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1B1B58122C8CC78D00E9392B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1B1B58142C8CC79C00E9392B /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		1B1B58172C8CFA2500E9392B /* TitleLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabelView.swift; sourceTree = "<group>"; };
+		1B1B581A2C8D015F00E9392B /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		1B1B581C2C8D048500E9392B /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		1B1B58202C8D107400E9392B /* TitleLabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabelModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +115,8 @@
 		1B1B57BB2C8CB04400E9392B /* MarketAppExampleUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				1B1B580A2C8CC50E00E9392B /* Models */,
-				1B1B58012C8CC30B00E9392B /* ViewModels */,
-				1B1B57FE2C8CC2C800E9392B /* Views */,
+				1B1B57FF2C8CC2D100E9392B /* Screens */,
+				1B1B58002C8CC2E400E9392B /* Components */,
 				1B1B58052C8CC39300E9392B /* Resources */,
 				1B1B58062C8CC3E200E9392B /* Services */,
 				1B1B58092C8CC4E900E9392B /* Coordinators */,
@@ -147,18 +162,10 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		1B1B57FE2C8CC2C800E9392B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				1B1B57FF2C8CC2D100E9392B /* Screens */,
-				1B1B58002C8CC2E400E9392B /* Components */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		1B1B57FF2C8CC2D100E9392B /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				1B1B580B2C8CC69100E9392B /* Home */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -166,20 +173,23 @@
 		1B1B58002C8CC2E400E9392B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				1B1B58162C8CFA0000E9392B /* TitleLabel */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		1B1B58012C8CC30B00E9392B /* ViewModels */ = {
+		1B1B58012C8CC30B00E9392B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1B1B58122C8CC78D00E9392B /* HomeViewModel.swift */,
 			);
-			path = ViewModels;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		1B1B58052C8CC39300E9392B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1B1B58192C8D010F00E9392B /* Fonts */,
 				1B1B57FC2C8CC25400E9392B /* Assets */,
 			);
 			path = Resources;
@@ -216,11 +226,65 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
-		1B1B580A2C8CC50E00E9392B /* Models */ = {
+		1B1B580A2C8CC50E00E9392B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1B1B58142C8CC79C00E9392B /* HomeModel.swift */,
 			);
-			path = Models;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B1B580B2C8CC69100E9392B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B580C2C8CC6B100E9392B /* HomeViewController.swift */,
+				1B1B580A2C8CC50E00E9392B /* Model */,
+				1B1B58012C8CC30B00E9392B /* ViewModel */,
+				1B1B580E2C8CC6BA00E9392B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1B1B580E2C8CC6BA00E9392B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B580F2C8CC6E100E9392B /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B1B58162C8CFA0000E9392B /* TitleLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B581F2C8D106300E9392B /* Model */,
+				1B1B581E2C8D104500E9392B /* View */,
+			);
+			path = TitleLabel;
+			sourceTree = "<group>";
+		};
+		1B1B58192C8D010F00E9392B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B581A2C8D015F00E9392B /* Poppins-Black.ttf */,
+				1B1B581C2C8D048500E9392B /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1B1B581E2C8D104500E9392B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B58172C8CFA2500E9392B /* TitleLabelView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B1B581F2C8D106300E9392B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B58202C8D107400E9392B /* TitleLabelModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +391,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1B581B2C8D015F00E9392B /* Poppins-Black.ttf in Resources */,
 				1B1B57C92C8CB04600E9392B /* Assets.xcassets in Resources */,
 				1B1B57CC2C8CB04600E9392B /* Base in Resources */,
 			);
@@ -353,8 +418,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1B580D2C8CC6B100E9392B /* HomeViewController.swift in Sources */,
 				1B1B57C12C8CB04400E9392B /* ViewController.swift in Sources */,
+				1B1B58132C8CC78D00E9392B /* HomeViewModel.swift in Sources */,
+				1B1B581D2C8D048500E9392B /* Fonts.swift in Sources */,
 				1B1B57C72C8CB04400E9392B /* MarketAppExampleUIKit.xcdatamodeld in Sources */,
+				1B1B58212C8D107400E9392B /* TitleLabelModel.swift in Sources */,
+				1B1B58152C8CC79C00E9392B /* HomeModel.swift in Sources */,
+				1B1B58102C8CC6E100E9392B /* HomeView.swift in Sources */,
+				1B1B58182C8CFA2500E9392B /* TitleLabelView.swift in Sources */,
 				1B1B57BD2C8CB04400E9392B /* AppDelegate.swift in Sources */,
 				1B1B57BF2C8CB04400E9392B /* SceneDelegate.swift in Sources */,
 			);

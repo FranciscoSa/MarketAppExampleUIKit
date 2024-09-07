@@ -99,13 +99,16 @@
 		1B1B57BB2C8CB04400E9392B /* MarketAppExampleUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				1B1B57BC2C8CB04400E9392B /* AppDelegate.swift */,
-				1B1B57BE2C8CB04400E9392B /* SceneDelegate.swift */,
+				1B1B580A2C8CC50E00E9392B /* Models */,
+				1B1B58012C8CC30B00E9392B /* ViewModels */,
+				1B1B57FE2C8CC2C800E9392B /* Views */,
+				1B1B58052C8CC39300E9392B /* Resources */,
+				1B1B58062C8CC3E200E9392B /* Services */,
+				1B1B58092C8CC4E900E9392B /* Coordinators */,
+				1B1B57F92C8CC12700E9392B /* App */,
 				1B1B57C02C8CB04400E9392B /* ViewController.swift */,
-				1B1B57C82C8CB04600E9392B /* Assets.xcassets */,
 				1B1B57CA2C8CB04600E9392B /* LaunchScreen.storyboard */,
 				1B1B57CD2C8CB04600E9392B /* Info.plist */,
-				1B1B57C52C8CB04400E9392B /* MarketAppExampleUIKit.xcdatamodeld */,
 			);
 			path = MarketAppExampleUIKit;
 			sourceTree = "<group>";
@@ -125,6 +128,99 @@
 				1B1B57E22C8CB04600E9392B /* MarketAppExampleUIKitUITestsLaunchTests.swift */,
 			);
 			path = MarketAppExampleUIKitUITests;
+			sourceTree = "<group>";
+		};
+		1B1B57F92C8CC12700E9392B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B57BC2C8CB04400E9392B /* AppDelegate.swift */,
+				1B1B57BE2C8CB04400E9392B /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1B1B57FC2C8CC25400E9392B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B57C82C8CB04600E9392B /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1B1B57FE2C8CC2C800E9392B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B57FF2C8CC2D100E9392B /* Screens */,
+				1B1B58002C8CC2E400E9392B /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B1B57FF2C8CC2D100E9392B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1B1B58002C8CC2E400E9392B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1B1B58012C8CC30B00E9392B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1B1B58052C8CC39300E9392B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B57FC2C8CC25400E9392B /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B1B58062C8CC3E200E9392B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B58082C8CC40600E9392B /* LocalStorage */,
+				1B1B58072C8CC3FE00E9392B /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1B1B58072C8CC3FE00E9392B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1B1B58082C8CC40600E9392B /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B57C52C8CB04400E9392B /* MarketAppExampleUIKit.xcdatamodeld */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		1B1B58092C8CC4E900E9392B /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		1B1B580A2C8CC50E00E9392B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
